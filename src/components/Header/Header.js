@@ -17,7 +17,7 @@ const Header = () => {
         <ul className="nav-links">
           <li><a href="#Home">Home</a></li>
           <li><a href="#features">Features</a></li>
-          <li><a href="#blog">Community</a></li>
+          <li><a href="#blog">community</a></li>
           <li><a href="#blogss">Blog</a></li>
           <li><a href="#featuress">Pricing</a></li>
         </ul>
