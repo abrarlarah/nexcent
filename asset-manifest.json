@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/abrarlarah/nexcent.git/static/css/main.525c21c4.css",
+    "main.js": "/abrarlarah/nexcent.git/static/js/main.f6d7710a.js",
+    "static/js/453.5aa6a120.chunk.js": "/abrarlarah/nexcent.git/static/js/453.5aa6a120.chunk.js",
+    "index.html": "/abrarlarah/nexcent.git/index.html",
+    "main.525c21c4.css.map": "/abrarlarah/nexcent.git/static/css/main.525c21c4.css.map",
+    "main.f6d7710a.js.map": "/abrarlarah/nexcent.git/static/js/main.f6d7710a.js.map",
+    "453.5aa6a120.chunk.js.map": "/abrarlarah/nexcent.git/static/js/453.5aa6a120.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.525c21c4.css",
+    "static/js/main.f6d7710a.js"
+  ]
+}
