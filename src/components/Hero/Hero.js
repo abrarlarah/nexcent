@@ -19,7 +19,7 @@ const Carousel = () => {
           <button className="hero-button">Register</button>
         </>
       ),
-      image: "/images/logo1.png",
+      image: "/logo192.png",
     },
     {
       content: <h1>Learn And Progress   <span className="green-text">More</span></h1>,
