@@ -1,0 +1,61 @@
+
+.infos-section {
+    display: flex;
+    align-items: center;
+    margin-top: 0 !important; /* No space from the top */
+    padding-top: 0 !important; /* Ensure no padding from the top */
+    margin-bottom: 4rem;
+    gap: 2rem;
+  }
+  
+  
+  
+
+  .infos-image {
+    width: 28%; /* Adjust size as needed */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+    margin-left: 5rem; /* Moves the image slightly to the right */
+    height: auto; /* Automatically adjusts height proportional to width */
+    max-height: 550px; /* Limits the image's height to make it smaller */
+  }
+  
+  
+  
+  .infos-text {
+    text-align: left; /* Right-align text */
+    flex: 1;
+    margin-top: 0rem;
+  }
+  
+  .infos-text h2 {
+
+    font-size: 2rem; /* Big size */
+    margin-bottom: 1rem;
+    line-height: 1;
+    /* margin-top: 0rem;
+    margin-bottom: 5rem; */
+  }
+  
+  .infos-text p {
+    color: gray;
+    font-size: 1rem;
+    margin-right: 14rem;
+    /* margin-bottom: 8rem; */
+
+  }
+  /* Button Styling */
+.learns-more-btn {
+    display: inline-block;
+    background-color: green; /* Green background */
+    color: white; /* White text */
+    padding: 0.8rem 1.5rem; /* Adds padding */
+    font-size: 1rem; /* Adjust font size */
+    border: none; /* Removes default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Adds pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .learns-more-btn:hover {
+    background-color: darkgreen; /* Darker green on hover */
+  }

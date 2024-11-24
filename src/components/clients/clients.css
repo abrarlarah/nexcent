@@ -1,0 +1,30 @@
+.clients {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .clients h1 {
+    font-size: 3rem; /* Adjust size as needed */
+    margin-bottom: 0.5rem; /* Reduce gap between h1 and p */
+  }
+  
+  .clients p {
+    color: grey;
+    margin-top: 0; /* Remove any default margin-top */
+    margin-bottom: 3rem;
+  }
+  .client-logos {
+    display: flex;
+    justify-content: center; /* Align logos to the center horizontally */
+    align-items: center; /* Align logos vertically in the container */
+    gap: 8rem; /* Maintain spacing between logos */
+    width: 100%; /* Allow the container to span the full width */
+    height: 60px; /* Fixed height for the container */
+  }
+  
+  .client-logos img {
+    max-width: 80px; /* Set a maximum width for logos */
+    max-height: 40px; /* Ensure logos fit within the height */
+    object-fit: contain; /* Maintain logo aspect ratio */
+  }
+  

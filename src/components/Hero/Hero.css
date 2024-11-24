@@ -1,0 +1,79 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: #e9f5e9;
+    flex-direction: column;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    /* line-height: 1; */
+  }
+  
+  .hero-text {
+    text-align: left; /* Align text to the left */
+    margin-right: 2rem; /* Space between text and image */
+    flex: 1; /* Allow the text to take up available space */
+  }
+  
+  .green-text {
+    color: green;
+    text-align: left;
+    display: block;
+  }
+  
+  .left-aligned-text {
+    text-align: left;
+    color: grey;
+  }
+  
+  .hero-button {
+    padding: 1rem 2rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    display: block;
+  }
+  
+  .hero h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-image img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0; /* Prevent the image from shrinking */
+  }
+  
+  .carousel-dots {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #28a745;
+  }
+  

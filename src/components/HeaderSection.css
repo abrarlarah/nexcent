@@ -1,0 +1,69 @@
+.header-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 2rem;
+  }
+  
+  .logo-section {
+    flex-shrink: 0;
+  }
+  
+  .tesla-logo {
+    width: 400px;
+    border-radius: 12px;
+    
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-left: 4rem;
+  }
+  
+  .content-section {
+    flex: 2;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .content-section p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: #098e1b;
+    margin-top: 1rem;
+  }
+  
+  .association {
+    color: gray;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .icons-section {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 4rem;
+  }
+  
+  .icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .customer-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #098e1b; /* Green color for link */
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .customer-link:hover {
+    text-decoration: underline;
+  }

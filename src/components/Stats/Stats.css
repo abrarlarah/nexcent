@@ -1,0 +1,70 @@
+.stats {
+    display: flex;
+    justify-content: space-between; /* Ensures space between left and right content */
+    align-items: flex-start; /* Aligns items at the top */
+    padding: 1rem;
+    background-color: #f3f3f3;
+  }
+  .stats-left {
+    flex: 1;
+    margin-left: 60px; /* Space from the left edge */
+    display: flex;
+    flex-direction: column; /* Stack heading and description vertically */
+    justify-content: flex-start;
+  }
+  
+  .stats-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    white-space: nowrap; /* Prevents text from wrapping */
+    margin-bottom: 0;
+     /* Ensure no margin at the bottom */
+     line-height: 1;
+  }
+  
+  .highlight-green {
+    color: green;
+    margin-top: 1rem; /* Ensure no space above the highlighted text */
+    margin-bottom: 1rem;
+  }
+  
+  .stats-description {
+    color: grey;
+    font-size: 1.2rem;
+    margin-top: 1rem; /* Ensure no margin at the top */
+    margin-bottom: 1rem; /* Ensure no margin at the bottom */
+  }
+  
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+    gap: 3rem;
+    flex: 1; /* Ensures grid takes up the remaining space */
+    margin-right: 60px; /* Space from the right edge */
+    padding-top: 1rem; /* Equal space at the top */
+    padding-bottom: 1rem; /* Equal space at the bottom */
+  }
+  
+  
+  .stat-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .stat-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  .stat-item h3 {
+    margin: 0;
+  }
+  
+  .stat-item p {
+    margin: 0;
+    color: grey;
+  }
+  

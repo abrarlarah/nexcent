@@ -1,0 +1,97 @@
+/* Ensures the header uses flexbox for layout */
+
+  
+  /* Logo container styling */
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 70px; /* No extra left margin */
+  }
+  
+  /* Logo image styling */
+  .logo-image {
+    width: 28px; /* Adjust logo size */
+    height: 28px; /* Adjust logo size */
+    margin-right: 5px; /* Space between the logo and text */
+  }
+
+  .logo strong {
+    font-size: 2rem; /* Adjust the size of the text (increase it as needed) */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  /* Right container holding the nav and register button */
+  .right-container {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically center the items */
+    margin-left: auto; /* Pushes the container to the right side */
+  }
+  
+  /* Navigation links styling */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 3rem; /* Space between each item */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navigation item styling */
+  .nav-links li {
+    font-size: 1rem; /* Font size for each nav item */
+  }
+  
+  /* Link styling */
+  .nav-links a {
+    text-decoration: none; /* Removes underline from links */
+    color: rgb(69, 67, 67); /* Link color */
+  }
+  
+  /* Hover effect for links */
+  .nav-links a:hover {
+    color: #28a745; /* Green hover effect */
+  }
+  
+  /* Register button styling */
+  .register-button {
+    padding: 1rem 3rem; /* Balanced padding */
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 4rem; /* Space between nav and register button */
+    margin-right: 4rem;
+  }
+  
+
+  /* Fixes the header to the top of the page */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: fixed; /* Fixes the header at the top */
+  top: 0; /* Keeps it at the top */
+  left: 0;
+  width: 100%; /* Ensures it stretches across the full width */
+  z-index: 1000; /* Makes sure the header is above other content */
+}
+
+/* Adds a margin to the top of the body content so it's not hidden under the header */
+body {
+  margin-top: 80px; /* Adjust according to the height of your header */
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Keeps logo on the left */
+  align-items: center; /* Vertically centers items */
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+
+}
